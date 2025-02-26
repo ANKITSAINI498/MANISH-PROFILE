@@ -40,7 +40,7 @@ loginForm?.addEventListener("submit", (e) => {
     const password = document.querySelector("#password").value;
 
     if (userId === "Manish" && password === "123") {
-        window.location.href = "./../nft-card-component/dist/Admin.html"; 
+        window.location.href = "./admin/Admin.html"; 
     } else {
         loginMessage.textContent = "It is wrong user ID or password!";
         loginMessage.style.color = "red"; 
