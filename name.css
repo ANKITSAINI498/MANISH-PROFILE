@@ -202,3 +202,11 @@
     border-radius: 37% 29% 27% 27% / 28% 25% 41% 37%;
   }
 }
+@media (max-width: 1200px) {
+  .title {
+    position: relative;
+    overflow:auto;
+    font-weight: 100%;
+  }
+  
+}

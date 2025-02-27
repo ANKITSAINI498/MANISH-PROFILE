@@ -115,3 +115,27 @@ html,body{
   bottom: -35px;
   opacity: 1;
 }
+
+@media (max-width: 1200px) {
+
+  html,body{
+    display: grid;
+    height: 105%;
+    place-items: center;
+    align-items: end;
+    margin-bottom: 0%;
+    left: 0;
+  }
+  .icons{
+    align-items: center;
+  }
+  .icons a{
+    margin-bottom: 45px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    position: relative;
+  }
+  
+  
+}
